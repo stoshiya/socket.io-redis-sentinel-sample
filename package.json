@@ -1,0 +1,38 @@
+{
+  "name": "socket.io-redis-sentinel-sample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "cookie-parser": "^1.3.3",
+    "debug": "^2.0.0",
+    "express": "^4.9.5",
+    "jade": "^1.7.0",
+    "morgan": "^1.3.2",
+    "serve-favicon": "^2.1.5",
+    "socket.io": "^1.1.0",
+    "socket.io-redis": "^0.1.3"
+  },
+  "description": "This is a simple node.js application using Socket.IO and redis-sentinel.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stoshiya/socket.io-redis-sentinel-sample"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "Socket.IO",
+    "redis-sentinel"
+  ],
+  "author": "Toshiya SAITOH <stoshiya@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stoshiya/socket.io-redis-sentinel-sample/issues"
+  },
+  "homepage": "https://github.com/stoshiya/socket.io-redis-sentinel-sample"
+}

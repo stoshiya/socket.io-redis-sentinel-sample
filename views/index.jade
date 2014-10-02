@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  p Connecting...
+
+  input(type='text', disabled)
+  button(disabled) submit
+  div.message
+    ul
+
+  script(src='http://code.jquery.com/jquery-1.10.1.min.js')
+  script(src='/socket.io/socket.io.js')
+  script(src='/javascripts/index.js')
